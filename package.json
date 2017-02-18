@@ -1,0 +1,20 @@
+{
+  "name": "visualsmannn",
+  "version": "1.0.0",
+  "description": "a music visualizer...man",
+  "main": "bundle.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "three": "^0.84.0",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "runtao amy peter",
+  "license": "ISC"
+}
