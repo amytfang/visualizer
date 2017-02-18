@@ -9,7 +9,7 @@ module.exports = {
       {
         test: [/\.js?$/],
         exclude: /(node_modules)/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015']
         }
@@ -18,7 +18,6 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['', '.js']
-  },
-  debug: true,
+    extensions: ['.js']
+  }
 };
